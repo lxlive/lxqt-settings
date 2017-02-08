@@ -1,0 +1,11 @@
+debian-lxqt-settings (0.11.1-1~2) unstable; urgency=medium
+
+  * fixed some defaults
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Feb 2017 21:32:15 +0100
+
+debian-lxqt-settings (0.11.1-1~1) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Feb 2017 00:39:06 +0100

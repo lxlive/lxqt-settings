@@ -1,0 +1,11 @@
+[Unit]
+Description=Debian cheatcodes in live media
+ConditionPathExists=/usr/share/debian-lxqt-livesettings/
+After=debian-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/debian-lxqt-livesettings/debian-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

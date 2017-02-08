@@ -1,0 +1,33 @@
+Source: debian-lxqt-settings
+Section: misc
+Priority: optional
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 10),
+               dh-systemd
+Standards-Version: 3.9.8
+Homepage: https://github.com/lxliveiso/debian-lxqt-settings
+Vcs-Git: https://github.com/lxliveiso/debian-lxqt-settings
+Vcs-Browser: https://github.com/lxliveiso/debian-lxqt-settings
+
+
+Package: debian-lxqt-settings
+Architecture: all
+Depends: ${misc:Depends},
+         debian-common-settings
+Description: LXQt settings in installed mode
+ Provides default settings for appearance and applications of the LXQt
+ desktop.
+ .
+ This overrides LXQt's defaults used for new users, all settings remain
+ configurable by the local user and don't override already existing user
+ profiles.
+
+Package: debian-lxqt-livesettings
+Architecture: all
+Depends: ${misc:Depends},
+         xfwm4 | openbox | x-window-manager,
+         debian-lxqt-settings,
+         debian-common-livesettings,
+Description: LXQt settings in live mode
+ Provides default settings for appearance and applications of the LXQt
+ desktop in live mode.
