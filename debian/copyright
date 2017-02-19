@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: debian-lxqt-settings
+Upstream-Name: lxqt-settings
 Source: https://github.com/lxliveiso/debian-lxqt-settings
 
 Files: *

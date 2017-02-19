@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
-NAME="debian-cheatcodes"
+NAME="lxqt-cheatcodes"
 
 if [ -r /etc/default/distro ]; then
     . /etc/default/distro
