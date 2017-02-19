@@ -5,9 +5,9 @@ Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 10),
                dh-systemd
 Standards-Version: 3.9.8
-Homepage: https://github.com/lxliveiso/lxqt-settings
-Vcs-Git: https://github.com/lxliveiso/lxqt-settings
-Vcs-Browser: https://github.com/lxliveiso/lxqt-settings
+Homepage: https://github.com/lxlive/lxqt-settings
+Vcs-Git: https://github.com/lxlive/lxqt-settings
+Vcs-Browser: https://github.com/lxlive/lxqt-settings
 
 
 Package: lxqt-settings
